@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="Página-1" id="2hnln4MIG7y9iDfAyROp">
-    <mxGraphModel>
+    <mxGraphModel dx="1111" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-1" value="Enviar Informacion de Registro de vehiculos" style="ellipse;html=1;shape=endState;fillColor=strokeColor;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="450" y="810" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-3" target="bI2PqAu7E1RoR2rcxeqR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar Numero de Orden de Servicio&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-5" target="bI2PqAu7E1RoR2rcxeqR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-5" value="Editar Orden de Servicio" style="ellipse;fillColor=strokeColor;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="165" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-6" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-8" target="bI2PqAu7E1RoR2rcxeqR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-7" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-8" target="bI2PqAu7E1RoR2rcxeqR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-8" value="Numero de Orden de Servicio Incorrectos" style="rhombus;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="174" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-10" target="bI2PqAu7E1RoR2rcxeqR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-10" value="Ingresar Numero de Orden de Servicio" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-12" target="bI2PqAu7E1RoR2rcxeqR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-12" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Mostrar Información del Cliente&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-14" target="bI2PqAu7E1RoR2rcxeqR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar Marca&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="324" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-16" target="bI2PqAu7E1RoR2rcxeqR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-16" value="Solicitar Modelo" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="374" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-18" target="bI2PqAu7E1RoR2rcxeqR-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-18" value="Solicitar Numero de Placa" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-20" target="bI2PqAu7E1RoR2rcxeqR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-20" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar Numero de Chasis&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-22" target="bI2PqAu7E1RoR2rcxeqR-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-22" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar Color&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="544" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-24" target="bI2PqAu7E1RoR2rcxeqR-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-24" value="Solicitar Tipo de Combustible" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="599" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-26" target="bI2PqAu7E1RoR2rcxeqR-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-26" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar Fecha de Registro&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="704" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-28" target="bI2PqAu7E1RoR2rcxeqR-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-28" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar Observaciones&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="754" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-30" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Solicitar kilometraje&amp;nbsp;&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="654" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-32" target="bI2PqAu7E1RoR2rcxeqR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-32" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Marca&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="324" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-34" target="bI2PqAu7E1RoR2rcxeqR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-34" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Modelo&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="394" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-36" target="bI2PqAu7E1RoR2rcxeqR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-36" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Numero de Placa&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-38" target="bI2PqAu7E1RoR2rcxeqR-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-38" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Numero de Chasis&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="510" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-40" target="bI2PqAu7E1RoR2rcxeqR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-40" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Color&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="639.0000000000001" as="sourcePoint" />
+            <mxPoint x="395" y="674.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-42" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Tipo de Combustible&amp;nbsp;&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="610" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-44" target="bI2PqAu7E1RoR2rcxeqR-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-44" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Kilometraje&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="664.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-46" target="bI2PqAu7E1RoR2rcxeqR-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-46" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Fecha de Registro&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bI2PqAu7E1RoR2rcxeqR-48" target="bI2PqAu7E1RoR2rcxeqR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-48" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Ingresar Observaciones&lt;/font&gt;&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="770" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-49" value="Responsable de Registro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="340" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="bI2PqAu7E1RoR2rcxeqR-50" value="SubSistema de Editar Orden de Servicio" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" width="350" height="1160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
