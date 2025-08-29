@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Página-1" id="ZW7hGe_wWFkr7PbIK7Pz">
+    <mxGraphModel dx="1188" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ATiM_YmrBa3AuoMoiape-1" value="Responsable de Registro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="340" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-2" value="SubSistema de Registro de Cliente" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" width="350" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-12" target="ATiM_YmrBa3AuoMoiape-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-12" value="Encerrar Orden de Servicio" style="ellipse;fillColor=strokeColor;html=1;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="-235" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-13" value="Enviar Informacion de Encerrar Orden de Servicio" style="ellipse;html=1;shape=endState;fillColor=strokeColor;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="144" y="352" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-15" target="ATiM_YmrBa3AuoMoiape-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-15" value="Solicita Numero de Orden de Servicio" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="79" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-17" target="ATiM_YmrBa3AuoMoiape-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-17" value="Ingresar Numero de Orden de Servicio" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="-280" y="115" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-18" target="ATiM_YmrBa3AuoMoiape-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-18" value="Mostrar Información de la Orden del servicio" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="89" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-22" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="140.5" y="150" width="37" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-24" value="SI" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-22" target="ATiM_YmrBa3AuoMoiape-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="240" as="sourcePoint" />
+            <mxPoint x="120" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-25" target="ATiM_YmrBa3AuoMoiape-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-25" value="Cerrar Orden de Servicio" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="ATiM_YmrBa3AuoMoiape-2">
+          <mxGeometry x="89" y="290" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATiM_YmrBa3AuoMoiape-27" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ATiM_YmrBa3AuoMoiape-2" source="ATiM_YmrBa3AuoMoiape-22" target="ATiM_YmrBa3AuoMoiape-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
